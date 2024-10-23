@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
     const siButton = document.getElementById('si-button');
     const noButton = document.getElementById('no-button');
-    siButton,addEventListener("click", () => {
-        alert("no jodas")
-    })
+
+    siButton.addEventListener('click', () => {
+            alert("¡Genial! Espero que todo salga bien.");
+        });
 
     document.addEventListener("mousemove", function (event) {
         const buttonRect = noButton.getBoundingClientRect();
