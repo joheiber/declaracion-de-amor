@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-
+    const siButton = document.getElementById('si-button');
     const noButton = document.getElementById('no-button');
-    noButton,addEventListener("click", () => {
+    siButton,addEventListener("click", () => {
         alert("no jodas")
     })
 
