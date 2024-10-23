@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+
     const noButton = document.getElementById('no-button');
+    noButton,addEventListener("click", () => {
+        alert("no jodas")
+    })
 
     document.addEventListener("mousemove", function (event) {
         const buttonRect = noButton.getBoundingClientRect();
@@ -17,4 +21,5 @@ document.addEventListener("DOMContentLoaded", function () {
         noButton.style.transform = `translate(${Math.random() * 100}px, ${Math.random() * 100}px)`;
     }
     });
+
 });
