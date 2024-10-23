@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         mouseY <= buttonRect.bottom
     ) {
         // Cambiar la posición del botón de 'No' aleatoriamente
-        noButton.style.transform = `translate(${Math.random() * 80}px, ${Math.random() * 80}px)`;
+        noButton.style.transform = `translate(${Math.random() * 100}px, ${Math.random() * 100}px)`;
     }
     });
 });
