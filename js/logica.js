@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
+    let cliks= 0
     const siButton = document.getElementById('si-button');
     const noButton = document.getElementById('no-button');
 
-    siButton.addEventListener('click', () => {
+    noButton.addEventListener('click', () => {
+        
             alert("¡Genial! Espero que todo salga bien.");
         });
 
